@@ -1,0 +1,182 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+	.my-nav{
+		margin-right: 20px;
+	}
+
+
+	.my-nav>li>a{
+		font-size: 12pt;
+		padding: 10px;
+	}
+
+
+	.my-logo{
+		width: 40px;
+		height: 40px;
+	}
+
+
+	.my-title>h3{
+		font-size: 15pt;
+	}
+
+
+	.my-title>h5{
+		font-size: 10pt;
+	}
+
+.info{
+	text-align: center;
+}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.header-button{
+		display: inline-block;
+	}
+
+	.my-nav-bar{
+		padding: 10px;
+	}
+
+	.my-brand{
+		margin-top: 10px;
+	}
+
+
+	.my-nav{
+		display: none;
+		margin: 0;
+		position: absolute;
+		right: 30px;
+		top: 65px;
+	}
+
+
+	.my-nav>li{
+		float: none;
+		display: block;
+		background-color: #FFF;
+		padding: 0;
+		text-align: right;
+		margin: 0;
+	}
+
+
+	.section1-button{
+		display: block;
+	}
+
+
+	.nav-filter{
+		display: none;
+	//position: absolute;
+	width: calc(100% - 80px);
+	margin: 0 40px;
+	z-index: 10;
+}
+
+
+.nav-filter>li{
+	background-color: #1bbc9b;
+	float: none;
+	display: block;
+	width: 100%;
+}
+.btn-up, .footer>h4{
+	display: block;
+	float: none;
+	margin: 10px auto;
+	text-align: center;
+	
+}
+
+.btn-submit{
+		padding: 10px; 
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.my-jumbotron{
+		padding-top: 40px;
+	}
+	.my-jumbotron>h1{
+		font-size: 45px;	
+	}
+
+	.header-button{
+		margin-right: 0;
+		font-size: 15px;
+	}
+	.my-nav-bar{
+		padding: 5px;
+	}
+	.my-nav{
+	right: 5px;
+	top: 50px;
+	}
+
+	.my-logo{
+		width: 28px;
+		height: 28px;
+	}
+	.my-title>h3{
+		font-size: 12pt;
+	}
+
+	.my-title>h5{
+		font-size: 8pt;
+	}
+	.btn-submit{
+		font-size: 10px;
+	}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	.my-nav{
+		display: inline-block !important;
+	}
+	.nav-filter{
+		display: inline-block !important;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
